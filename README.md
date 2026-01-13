@@ -129,21 +129,6 @@ The function accepts the following arguments:
 -   **predicate**: predicate function.
 -   **thisArg**: predicate function execution context (_optional_).
 
-Each provided ndarray should be an object with the following properties:
-
--   **dtype**: data type.
--   **data**: data buffer.
--   **shape**: dimensions.
--   **strides**: stride lengths.
--   **offset**: index offset.
--   **order**: specifies whether an ndarray is row-major (C-style) or column major (Fortran-style).
-
-The predicate function is provided the following arguments:
-
--   **value**: current array element.
--   **indices**: current array element indices.
--   **arr**: the input ndarray.
-
 To set the predicate function execution context, provide a `thisArg`.
 
 <!-- eslint-disable no-invalid-this, max-len -->
@@ -207,6 +192,21 @@ var count = ctx.count;
 <section class="notes">
 
 ## Notes
+
+-   Each provided ndarray should be an object with the following properties:
+
+    -   **dtype**: data type.
+    -   **data**: data buffer.
+    -   **shape**: dimensions.
+    -   **strides**: stride lengths.
+    -   **offset**: index offset.
+    -   **order**: specifies whether an ndarray is row-major (C-style) or column major (Fortran-style).
+
+-   The predicate function is provided the following arguments:
+
+    -   **value**: current array element.
+    -   **indices**: current array element indices.
+    -   **arr**: the input ndarray.
 
 -   For very high-dimensional ndarrays which are non-contiguous, one should consider copying the underlying data to contiguous memory before performing the operation in order to achieve better performance.
 
@@ -292,7 +292,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -318,8 +318,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
