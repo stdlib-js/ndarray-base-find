@@ -50,6 +50,11 @@ limitations under the License.
 <!-- eslint-disable no-redeclare -->
 
 ```javascript
+import find from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-find@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-find/tags). For example,
+
+```javascript
 import find from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-find@v0.1.0-esm/index.mjs';
 ```
 
@@ -211,7 +216,7 @@ var count = ctx.count;
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@esm/index.mjs';
-import find from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-find@v0.1.0-esm/index.mjs';
+import find from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-find@esm/index.mjs';
 
 function isEven( value ) {
     return value % 2.0 === 0.0;
