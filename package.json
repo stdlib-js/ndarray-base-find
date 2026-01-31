@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-find",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Return the first element in an ndarray which passes a test implemented by a predicate function.",
   "license": "Apache-2.0",
   "author": {
@@ -48,16 +48,16 @@
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
-    "@stdlib/array-filled": "^0.2.1",
+    "@stdlib/array-filled": "^0.3.0",
     "@stdlib/array-float64": "^0.2.2",
     "@stdlib/array-one-to": "^0.2.2",
     "@stdlib/array-ones": "^0.2.1",
     "@stdlib/array-zeros": "^0.2.2",
     "@stdlib/assert-is-same-value": "^0.2.2",
-    "@stdlib/complex-float64-ctor": "^0.0.3",
+    "@stdlib/complex-float64-ctor": "^0.1.0",
     "@stdlib/complex-float64-imag": "^0.1.1",
     "@stdlib/complex-float64-real": "^0.1.1",
-    "@stdlib/math-base-assert-is-integer": "^0.2.5",
+    "@stdlib/math-base-assert-is-integer": "^0.2.6",
     "@stdlib/math-base-special-cbrt": "^0.2.2",
     "@stdlib/math-base-special-floor": "^0.2.3",
     "@stdlib/math-base-special-pow": "^0.3.0",
@@ -101,7 +101,6 @@
     "utility",
     "utils"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
