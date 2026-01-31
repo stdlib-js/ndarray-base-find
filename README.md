@@ -52,7 +52,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-find = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-find@umd/browser.js' )
+find = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-find@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -64,7 +64,7 @@ var find = require( 'path/to/vendor/umd/ndarray-base-find/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-find@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-find@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -233,7 +233,7 @@ var count = ctx.count;
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-find@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-find@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
